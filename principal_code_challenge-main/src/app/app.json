@@ -1,0 +1,23 @@
+{
+  "name": "Principal TC Certification Challenge App",
+  "description": "Principal TC Certification Challenge",
+  "uid": "principal_challenge_app",
+  "scopes": [
+    "collector.graphql_schema.read",
+    "collector.graphql_query.execute",
+    "crm.objects.contacts.read",
+    "crm.objects.deals.read",
+    "crm.objects.companies.read",
+    "crm.objects.line_items.read"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/principal-challenge-card.json"
+        }
+      ]
+    }
+  }
+}

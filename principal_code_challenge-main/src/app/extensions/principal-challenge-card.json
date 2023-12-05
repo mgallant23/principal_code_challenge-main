@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Principal Challenge Card",
+    "uid": "principal_challenge_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "Challenge.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}

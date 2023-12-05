@@ -1,0 +1,14 @@
+{
+  "runtime": "nodejs16.x",
+  "version": "1.0",
+  "appFunctions": {
+    "renderText": {
+      "file": "render-text.js",
+      "secrets": []
+    },
+    "fetchData": {
+      "file": "fetch-data.js",
+      "secrets": []
+    }
+  }
+}

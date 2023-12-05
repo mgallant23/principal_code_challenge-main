@@ -1,0 +1,23 @@
+{
+  "name": "principal-challenge-extension",
+  "version": "1.1",
+  "description": "",
+  "license": "MIT",
+  "main": "Challenge.jsx",
+  "scripts": {
+    "dev": "hs-ui-extensions-dev-server dev",
+    "build": "hs-ui-extensions-dev-server build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viktorbrech/principal_toy_ui_extd"
+  },
+  "dependencies": {
+    "@hubspot/ui-extensions": "latest",
+    "react": "^18.2.0",
+    "text-to-svg": "^3.1.0"
+  },
+  "devDependencies": {
+    "@hubspot/ui-extensions-dev-server": "latest"
+  }
+}
